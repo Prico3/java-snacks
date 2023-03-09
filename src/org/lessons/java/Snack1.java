@@ -10,6 +10,8 @@ public class Snack1 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Inserisci un numero:");
         int number = Integer.parseInt(scan.nextLine());
+        scan.close();
+
         //controllo se il numero è divisibile per 2, quindi pari
         if (number % 2 == 0){
             //se è pari lo stampo
